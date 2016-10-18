@@ -16,6 +16,8 @@ var border = new Shape.Rectangle({
 	shadowOffset: new Point(20, 20)
 });
 
+var pockets = [];
+
 
 function onResize(event) {
 	rect.point = new Point(0, 0);
