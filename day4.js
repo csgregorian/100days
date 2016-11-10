@@ -1,10 +1,10 @@
 var rect = new Shape.Rectangle({
     point: [0, 0],
     size: [view.size.width, view.size.height],
-    strokeColor: 'black'
+    strokeColor: 'black',
 });
 rect.sendToBack();
-rect.fillColor = "#664488";
+rect.fillColor = "black";
 
 var center = new Point(view.size.width/2, view.size.height/2);
 
